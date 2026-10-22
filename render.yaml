@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: siyoon-garden
+    runtime: static
+    buildCommand: echo "Static files are ready"
+    staticPublishPath: ./dist
+    autoDeployTrigger: commit
